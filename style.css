@@ -1,0 +1,96 @@
+html{
+  box-sizing: border-box;
+  height: 100%;
+}
+
+*,
+*::before'
+*::after{
+  box-sizing: inhert;
+  margin:0;
+  padding:0;
+}
+
+body{
+  background: #a34988;
+  align-items: center;
+  display: flex;
+  font-family:'Dosis' Sans-Serif;
+  font-display: swap;
+  height: inhert;
+  justify-content: center;
+}
+
+.wrapper{
+  backdrop-filter: blur(5.5px);
+  webkit-backdrop-filter: blur(5.5px);
+  border-radius: 16px
+  box-shadow:0 4px 30px #781660;
+  color:#232323 ;
+  backdrop-filter: blur(4px);
+  webkit-backdrop-filter: blur(4px);
+  background: #fcdef3;
+  border:1px solid #bdb7bb ;
+  flex-basis: 400px;
+  height: 540px;
+  padding: 20px 35px;
+}
+
+.input{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px)
+  background: #fcf2f9;
+  border: 1px solid #945380;
+  border-radius: 6px;
+  box-shadow: 0 4px 4px grey;
+  color: #232323;
+  font-size: 35px;
+  overflow: auto;
+  padding: 20px;
+  text-align: right;
+  width: 326px;
+}
+
+.cal-button-row{
+  display:flex;
+  justify-content: space-between;
+  margin: 5% 0;
+}
+
+.cal-button{
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter:blur(5.5px):
+  background: #f2acdd;
+  border: 1px solid #945380;
+  border-radius: 5px;
+  box-shadow: 0 4px 3px grey;
+  color: #5c1245;
+  flex-basis: 20%;
+  font-family: inhert;
+  font-size: 24px;
+  height: 65px;
+}
+
+.cal-button:last-child{
+    backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter:blur(5.5px):
+  background: #f2acdd;
+  border: 1px solid #945380;
+  border-radius: 5px;
+  box-shadow: 0 4px 3px grey;
+  color: #5c1245;
+  background: #de76bd;
+}
+
+.cal-button:last-child:hover{
+  background-color: inhert;
+  color: inhert;
+}
+
+.cal-button:hover{
+  background-color: inhert;
+}
+
+.cal-button:active{
+  background-color: #facdec;
+}
